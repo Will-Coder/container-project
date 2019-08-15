@@ -103,7 +103,7 @@ exports.import = function(req, res) {
       description:
         'Potted annual plants. An annual plant is a plant that completes its life cycle, from germination to the production of seeds, within one growing season, and then dies.(https://en.wikipedia.org/wiki/Annual_plant).  Dusty Miller',
       image: 'annuals.jpg',
-      ingredients: ['potting soil', 'fertilizer', 'seeds/plant', 'rice', 'walnuts', 'lime juice'],
+      ingredients: ['potting soil', 'fertilizer', 'seeds/plant'],
       preparation: [
         { step: 'Drill drainage hole in pot' },
         { step: 'Add potting soil' },
@@ -127,7 +127,7 @@ exports.import = function(req, res) {
       description:
         'Sweet pea is a flowering climbing plant',
       image: 'sweetpea.jpg',
-      ingredients: ['potting soil', 'fertilizer', 'seeds/plant', 'rice', 'walnuts', 'lime juice'],
+      ingredients: ['potting soil', 'fertilizer', 'seeds/plant'],
       preparation: [
         { step: 'Drill drainage hole in pot' },
         { step: 'Add potting soil' },
