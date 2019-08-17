@@ -14,3 +14,7 @@ div {
 img {
   max-width: 200px;
 }
+
+ul>.maint{
+  list-style-type: none;
+}

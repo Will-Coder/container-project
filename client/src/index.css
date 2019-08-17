@@ -14,6 +14,10 @@ a {
   color: #007eb6;
   text-decoration: none;
 }
+
+ul.maint{
+  list-style-type: none;
+}
 img {
   max-width: 200px;
   /* float: left; */
@@ -37,6 +41,16 @@ button {
   margin: 1rem 0;
   background: #007eb6;
 }
+
+/* div.mainBtn{
+  display: flex;
+} */
+.mButton {
+  /* justify-content: center; */
+  margin:auto;
+  display:block;
+}
+
 .del {
   width: 100%;
   display: inline-block;

@@ -28,6 +28,7 @@ class ContainerDetails extends React.Component {
         <img
           //src={`http://oit2.scps.nyu.edu/~devereld/intermediate/img/${image}`}
           src={`/img/${image}`}
+          //src={`http://localhost:5000/img/${image}`} alt={title} />
           alt={title}
         />
         <h3>

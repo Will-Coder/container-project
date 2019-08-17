@@ -3,6 +3,7 @@ import Containers from './Containers';
 import ContainerDetails from './ContainerDetails';
 import ContainerMaintenance from './ContainerMaintenance';
 import EditContainer from './EditContainer';
+import FileUpload from './FileUpload';
 
 import { Router, Link } from '@reach/router';
 
@@ -57,7 +58,9 @@ class App extends React.Component {
   }
 
   render() {
-    if(this.state.isLoading){return 'Loading...'}
+    if(this.state.isLoading){
+      return 'Loading...'
+    }
     return (
       <div>
         <nav>
@@ -75,10 +78,10 @@ class App extends React.Component {
           />
           <EditContainer 
           path="/editcontainer/:containerId" 
-          editContainer={this.update}
-          containers={this.state.containers}
-          // handleSubmit={this.handleSubmit}
+
           />
+          <FileUpload path="/container/:containerId" />
+        
         </Router>
       </div>
     );
